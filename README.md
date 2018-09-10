@@ -12,7 +12,7 @@ Patches the following issue when updating alloptions in cache:
 
 Based on the fix presented here:
 
-* https://github.com/Automattic/vip-go-mu-plugins-built/blob/master/misc.php
+* https://github.com/Automattic/vip-go-mu-plugins-built/blob/master/misc.php#L66-L83
 
 
 It appears there is sometimes an edge-case once our redis store has many keys where once a key is set, 
